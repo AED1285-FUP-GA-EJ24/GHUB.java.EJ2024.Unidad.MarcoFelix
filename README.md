@@ -1,8 +1,6 @@
-# Proyecto - Simple Hola Mundo
+# Proyecto - Unidad IV- Arreglos
 
 ## Descripción del Problema
-
-Este ejercicio simplemente imprime por consola la frase "Hola Mundo".
 
 ## Ejecución
 
