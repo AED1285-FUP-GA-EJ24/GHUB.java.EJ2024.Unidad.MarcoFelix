@@ -1,5 +1,6 @@
 package miPrincipal;
 import demoArreglos.DemoArreglos;
+import sumaArreglo.SumaArreglo;
 import java.util.Scanner;
 
 public class Principal {
@@ -12,7 +13,7 @@ public class Principal {
             System.out.println("      MENU DE OPCIONES UNIDAD IV      ");
             System.out.println("**************************************");
             System.out.println("* 1) Demo de arreglos unidimensionales"); 
-            System.out.println("* 2) "); 
+            System.out.println("* 2) Suma de un arreglo               "); 
             System.out.println("* 3) "); 
             System.out.println("* 4) "); 
             System.out.println("* 5) "); 
@@ -28,6 +29,10 @@ public class Principal {
                    objDemoArreglos.demoArreglos();
                    break;
                 case 2:
+                  //creo el objeto
+                  SumaArreglo objSumaArreglo = new SumaArreglo();
+                  objSumaArreglo.sumaArreglo();
+                  break;
                 case 3:
                 case 4:
                 case 5:
