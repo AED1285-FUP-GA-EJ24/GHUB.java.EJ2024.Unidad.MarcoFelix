@@ -1,8 +1,11 @@
-package sumaArreglo;
-//Proposito calcular la suma de los elementos de un arreglo
+package productoArreglo;
 import java.util.Scanner;
-public class SumaArreglo {
-    public void sumaArreglo(){
+//Proposito: Leer un arreglo y mostrar el producto de sus elementos en pantalla
+//Autor:Marco Felix
+//Fecha: 22/05/2024
+public class ProductoArreglo {
+    public void productoArreglo(){
+        //creo objeto Scanner
         Scanner teclado = new Scanner(System.in);
         //declaracion de arreglo
         int []a; //declarando el arreglo a
@@ -12,13 +15,15 @@ public class SumaArreglo {
             System.out.print("Proporciona elemento "+i+":");
             a[i]=teclado.nextInt();
         }
-        //suma de los elementos del arreglo
+        //multiplicar de los elementos del arreglo
         int acum = 0;
         for(int i=0;i<a.length; i++){
             acum = acum + a[i];
         }
-            //muestre la suma por pantalla
-            System.out.println("La suma = "+acum);
+            //muestre el producto por pantalla
+            System.out.println("El producto = "+acum);
     }
+    
+}   
+    
 
-}

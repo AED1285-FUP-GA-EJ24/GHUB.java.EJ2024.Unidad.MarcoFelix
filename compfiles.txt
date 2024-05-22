@@ -1,2 +1,5 @@
-./miPrincipal/Principal.java
 ./miTest/AppTest.java
+./sumaArreglo/SumaArreglo.java
+./demoArreglos/DemoArreglos.java
+./miPrincipal/Principal.java
+./productoArreglo/ProductoArreglo.java

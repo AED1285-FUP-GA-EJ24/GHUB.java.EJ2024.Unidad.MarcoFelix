@@ -34,6 +34,10 @@ public class Principal {
                   objSumaArreglo.sumaArreglo();
                   break;
                 case 3:
+                  // crea el objeto
+                  ProductoArreglo objProductoArreglo = new ProductoArreglo();
+                  objProductoArreglo.productoArreglo();
+                  break;
                 case 4:
                 case 5:
 
