@@ -1,4 +1,5 @@
 ./miTest/AppTest.java
+./arreglosMultidimensionales/ArreglosMultidimensionales.java
 ./sumaArreglo/SumaArreglo.java
 ./demoArreglos/DemoArreglos.java
 ./miPrincipal/Principal.java
