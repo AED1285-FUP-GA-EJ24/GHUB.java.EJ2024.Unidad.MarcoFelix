@@ -1,6 +1,10 @@
+./promedio/Promedio.java
+./promedio/Promedio2.java
 ./miTest/AppTest.java
 ./arreglosMultidimensionales/ArreglosMultidimensionales.java
+./inicializacionArreglos/InicializacionArreglos.java
 ./sumaArreglo/SumaArreglo.java
 ./demoArreglos/DemoArreglos.java
 ./miPrincipal/Principal.java
+./generacionNombres/GeneracionNombres.java
 ./productoArreglo/ProductoArreglo.java

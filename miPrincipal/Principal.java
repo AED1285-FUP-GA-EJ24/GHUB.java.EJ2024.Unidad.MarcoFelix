@@ -2,12 +2,13 @@ package miPrincipal;
 import demoArreglos.DemoArreglos;
 import sumaArreglo.SumaArreglo;
 import productoArreglo.ProductoArreglo;
-//import promedio.Promedio;
-//import promedio.Promedio2;
-//import inicializacionArreglos.InicializacionArreglos;
-import arreglosMultidimensionales.*;
-//import generacionNombres.*;
+import promedio.Promedio;
+import promedio.Promedio2;
+import inicializacionArreglos.InicializacionArreglos;
+import generacionNombres.*;
+import arreglosMultidimensionales.ArreglosMultidimensionales;
 import java.util.Scanner;
+
 
 public class Principal {
     
@@ -24,9 +25,8 @@ public class Principal {
             System.out.println("* 4) Promedio de calificaciones       "); 
             System.out.println("* 5) Promedio de calificaciones v2    "); 
             System.out.println("* 6) Inicialización de arreglos       ");
-            System.out.println("* 7) Gneración aleatorio de nombres   ");
-            System.out.println("* 7) Arreglos Multidimensionales      ");
-
+            System.out.println("* 7) Generación aleatorio de nombres  ");
+            System.out.println("* 8) Arreglos Multidimensionales      ");
 
             System.out.println();
             System.out.println("* 99) Salir"); 
@@ -51,30 +51,29 @@ public class Principal {
                   break;
                 case 4:
                   //crea el objeto
-                  //Promedio objPromedio = new Promedio();
-                  //objPromedio.promedio();
+                  Promedio objPromedio = new Promedio();
+                  objPromedio.promedio();
                   break;
                 case 5:
                   //crea el objeto
-                 // Promedio2 objPromedio2 = new Promedio2();
-                 // objPromedio2.promedio();
+                  Promedio2 objPromedio2 = new Promedio2();
+                  objPromedio2.promedio();
                   break;
                 case 6:
                    //crea el objeto
-                   //InicializacionArreglos objIarr = new InicializacionArreglos();
-                   //objIarr.inicializacionArreglos();
+                   InicializacionArreglos objIarr = new InicializacionArreglos();
+                   objIarr.inicializacionArreglos();
                    break;
                 case 7:
                    //crear el objeto
-                   //GeneracionNombres objNom = new GeneracionNombres();
-                   //objNom.generacionNombres();
+                   GeneracionNombres objNom = new GeneracionNombres();
+                   objNom.generacionNombres();
                    break;
                 case 8:
-                    //crear el objeto
-                    ArreglosMultidimensionales objArregloMulti = new ArreglosMultidimensionales();
-                    objArregloMulti.arreglosMultidimensionales();
-                   
-                    break;
+                   //crear el objeto
+                   ArreglosMultidimensionales objArreMulti = new ArreglosMultidimensionales();
+                   objArreMulti.arreglosMultidimensionales();
+                   break;
                 case 99:
                     System.out.println("Hasta luego");
                     break;
