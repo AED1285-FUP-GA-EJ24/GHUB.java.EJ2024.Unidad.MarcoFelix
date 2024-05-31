@@ -5,8 +5,11 @@ import productoArreglo.ProductoArreglo;
 import promedio.Promedio;
 import promedio.Promedio2;
 import inicializacionArreglos.InicializacionArreglos;
+import leerAccederArreglo.LeerAccederArreglo;
 import generacionNombres.*;
 import arreglosMultidimensionales.ArreglosMultidimensionales;
+import leerAccederArreglo.*;
+import calculoSalario.*;
 import java.util.Scanner;
 
 
@@ -16,17 +19,20 @@ public class Principal {
         Scanner entrada = new Scanner(System.in);
         int opcion;
         do{
-            System.out.println("**************************************");
-            System.out.println("      MENU DE OPCIONES UNIDAD IV      ");
-            System.out.println("**************************************");
-            System.out.println("* 1) Demo de arreglos unidimensionales"); 
-            System.out.println("* 2) Suma de un arreglo               "); 
-            System.out.println("* 3) Producto de un arreglo           "); 
-            System.out.println("* 4) Promedio de calificaciones       "); 
-            System.out.println("* 5) Promedio de calificaciones v2    "); 
-            System.out.println("* 6) Inicialización de arreglos       ");
-            System.out.println("* 7) Generación aleatorio de nombres  ");
-            System.out.println("* 8) Arreglos Multidimensionales      ");
+            System.out.println("**************************************         ");
+            System.out.println("      MENU DE OPCIONES UNIDAD IV               ");
+            System.out.println("***********************************************");
+            System.out.println("* 1) Demo de arreglos unidimensionales         "); 
+            System.out.println("* 2) Suma de un arreglo                        "); 
+            System.out.println("* 3) Producto de un arreglo                    "); 
+            System.out.println("* 4) Promedio de calificaciones                "); 
+            System.out.println("* 5) Promedio de calificaciones v2             "); 
+            System.out.println("* 6) Inicialización de arreglos                ");
+            System.out.println("* 7) Generación aleatorio de nombres           ");
+            System.out.println("* 8) Arreglos Multidimensionales               ");
+            System.out.println("* 9) Lectura y acceso de arreglos bidimensional");
+            System.out.println("* 10) Calculo salario para varios trabajadores ");
+
 
             System.out.println();
             System.out.println("* 99) Salir"); 
@@ -73,6 +79,13 @@ public class Principal {
                    //crear el objeto
                    ArreglosMultidimensionales objArreMulti = new ArreglosMultidimensionales();
                    objArreMulti.arreglosMultidimensionales();
+                   break;
+                case 9:
+                   //
+                   LeerAccederArreglo.leerAccederArreglo();
+                   break;
+                case 10:
+                   CalculoSalario.calcular();
                    break;
                 case 99:
                     System.out.println("Hasta luego");

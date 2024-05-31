@@ -132,12 +132,47 @@ public class ArreglosMultidimensionales{
         }
 
 
-        //recorrer el arreglo pantalla
-
         //inicalizacion de arreglos multidimensiones
+        int tabla[][]={{51,52,53},
+                       {54,55,56}};
+
+        //el reglon de arriba defina un arreglos de 2renglones y 3 columnas
+        //por lo tanto tiene 2X3 elementos, es decir 6 elementos
+         //Recorrer de nuevo la matriz
+         for(int i =0;i<2;i++){
+            for(int j=0;j<3;j++){
+                System.out.print("tabla["+i+"]["+j+"]="+tabla[i][j]+" ");
+                
+            }
+            System.out.println();
+        }
+        //inicalizacion de arreglos multidimensiones
+        int tabla2[][]={ {1,2,3,4},
+                         {5,6,7,8},
+                         {9,10,11,12}};
+        //la matriz tabla2 tiene 3 renglones y 4 columnas
+        //Recorrer de nuevo la matriz
+        for(int i =0;i<3;i++){
+            for(int j=0;j<4;j++){
+                System.out.print("tabla2["+i+"]["+j+"]="+tabla2[i][j]+" ");
+                
+            }
+            System.out.println();
+        }
+        //FORMA 2 DE RECORRER UNA MATRIZ
+        for(int i =0;i<tabla2.length;i++){
+            for(int j=0;j<tabla2[i].length;j++){
+                System.out.print("tabla2["+i+"]["+j+"]="+tabla2[i][j]+" ");
+                
+            }
+            System.out.println();
+        }
+
+
+
 
 
 
     }
 
-} 
+}

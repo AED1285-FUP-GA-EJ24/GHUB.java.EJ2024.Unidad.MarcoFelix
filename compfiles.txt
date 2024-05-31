@@ -1,6 +1,7 @@
 ./promedio/Promedio.java
 ./promedio/Promedio2.java
 ./miTest/AppTest.java
+./leerAccederArreglo/LeerAccederArreglo.java
 ./arreglosMultidimensionales/ArreglosMultidimensionales.java
 ./inicializacionArreglos/InicializacionArreglos.java
 ./sumaArreglo/SumaArreglo.java
