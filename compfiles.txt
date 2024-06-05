@@ -7,5 +7,8 @@
 ./sumaArreglo/SumaArreglo.java
 ./demoArreglos/DemoArreglos.java
 ./miPrincipal/Principal.java
+./calculoSalario/CalculoSalario.java
+./calculoSalario/CalculoSalario2.java
+./productoValorMaximo/ProductoValorMaximo.java
 ./generacionNombres/GeneracionNombres.java
 ./productoArreglo/ProductoArreglo.java
